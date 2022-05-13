@@ -11,7 +11,7 @@ namespace Lab04.Tools
     {
 
         internal static readonly string StorageFilePath =
-            Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\Data\\output.txt");
+            Path.Combine(AppContext.BaseDirectory, "..\\..\\..\\output.txt");
 
         internal static bool CreateFolderAndCheckFileExistence(string filePath)
         {
